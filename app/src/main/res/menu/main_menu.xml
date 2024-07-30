@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/add_schedule"
+        android:title="Add schedule"/>
+    <item
+        android:id="@+id/view_calendar"
+        android:title="View calendar"/>
+</menu>
+

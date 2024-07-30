@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Spinner
+        android:id="@+id/date_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/dates_array"/>
+
+    <EditText
+        android:id="@+id/schedule_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/date_spinner"
+        android:layout_marginTop="43dp"
+        android:hint="Add schedule" />
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/schedule_edit_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="Save" />
+</RelativeLayout>
